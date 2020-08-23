@@ -27,7 +27,7 @@ pageEncoding="UTF-8"%>
     <title>Login</title>
   </head>
 
-  <body class="stretched">
+  <body class="stretched" >
     <!-- Document Wrapper -->
     <div id="wrapper" class="clearfix">
       <!-- Header -->
@@ -35,7 +35,7 @@ pageEncoding="UTF-8"%>
 
       <!-- Content -->
       <section id="content">
-        <div class="content-wrap nopadding">
+        <div class="content-wrap nopadding" >
           <div
             class="section nopadding nomargin"
             style="

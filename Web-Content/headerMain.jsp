@@ -1,8 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 pageEncoding="UTF-8"%>
-
 <!-- Header -->
-<header id="header" class="full-header">
+<header id="header" class="full-header" >
   <div id="header-wrap">
     <div class="container clearfix">
       <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>

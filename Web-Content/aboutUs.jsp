@@ -7,7 +7,7 @@ pageEncoding="UTF-8"%>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="SemiColonWeb" />
 
-    <!-- Stylesheets -->
+    <!-- StyleSheets -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
       rel="stylesheet"
@@ -16,9 +16,9 @@ pageEncoding="UTF-8"%>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="css/dark.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
     <link rel="stylesheet" href="css/animate.css" type="text/css" />
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <link rel="stylesheet" href="css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -47,8 +47,8 @@ pageEncoding="UTF-8"%>
       <jsp:include page="headerMain.jsp" />
 
       <!-- Page Title -->
-      <section id="page-title">
-        <div class="container clearfix center">
+      <section id="page-title "  >
+        <div class="container clearfix center" >
           <h1>About Us</h1>
         </div>
       </section>
@@ -72,47 +72,29 @@ pageEncoding="UTF-8"%>
                         src="images/avatar_girl_coder.png"
                         alt="Josh Clark"
                       />
+                       <div class="team-title">
+                        <h4>Anmol Gupta</h4>
+                        <span>Founder, Developer</span>
+                         <p><a href="https://github.com/Anmolag111" target="_blank"><i class="fa fa-github-square mr-1"></i></a><a href="https://www.linkedin.com/in/anmol-gupta-5b9396179/" target="_blank"><i class="fa fa-linkedin-square"></i></a></p>
+                      </div>
                     </div>
                   </div>
                 </div>
-
                 <div class="col-md-4 bottommargin">
                   <div class="team team-list clearfix">
                     <div class="team-image">
-                      <img src="images/avatar_boy_coder.png" alt="Mary Jane" />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-2 bottommargin"></div>
-              </div>
-
-              <div class="row clearfix">
-                <div class="col-md-2 bottommargin"></div>
-
-                <div class="col-md-4 bottommargin">
-                  <div class="team team-list clearfix">
-                    <div class="team-desc">
-                      <div class="team-title">
-                        <h4>Anmol Gupta</h4>
-                        <span>Founder, Developer</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-md-4 bottommargin">
-                  <div class="team team-list clearfix">
-                    <div class="team-desc">
-                      <div class="team-title">
+                      <img
+                        src="images/avatar_boy_coder.png"
+                        alt="Josh Clark"
+                      />
+                       <div class="team-title">
                         <h4>Sahil Jamwal</h4>
                         <span>Founder, Developer</span>
+                         <p><a href="https://github.com/sahiljamwal" target="_blank"><i class="fa fa-github-square mr-1"></i></a><a href="https://www.linkedin.com/in/sj78625/" target="_blank"><i class="fa fa-linkedin-square"></i></a></p>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="col-md-2 bottommargin"></div>
               </div>
             </div>
           </div>
@@ -121,7 +103,7 @@ pageEncoding="UTF-8"%>
       <!-- #content end -->
 
       <!-- Footer -->
-      <jsp:include page="footer.jsp" />
+    <jsp:include page="footer.jsp" /> 
     </div>
     <!-- #wrapper end -->
 

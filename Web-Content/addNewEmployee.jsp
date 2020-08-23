@@ -178,8 +178,9 @@ pageEncoding="UTF-8"%>
                               class="form-control"
                               checked
                           /></label>
-
-                          <label
+							&nbsp;
+							&nbsp;
+                          <label 
                             >TEACHING<input
                               type="radio"
                               id="register-form-phone"
@@ -187,7 +188,8 @@ pageEncoding="UTF-8"%>
                               value="TEACHING"
                               class="form-control"
                           /></label>
-
+							&nbsp;
+							&nbsp;
                           <label
                             >NON-TEACHING<input
                               type="radio"

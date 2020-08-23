@@ -25,7 +25,8 @@ pageEncoding="ISO-8859-1" import="java.sql.ResultSet"%>
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
-
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/responsive.css" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -33,7 +34,7 @@ pageEncoding="ISO-8859-1" import="java.sql.ResultSet"%>
     <title>Review Leaves</title>
   </head>
 
-  <body class="stretched">
+  <body class="stretched" >
     <!-- Document Wrapper -->
     <div id="wrapper" class="clearfix">
       <!-- Header -->
@@ -41,7 +42,7 @@ pageEncoding="ISO-8859-1" import="java.sql.ResultSet"%>
 
       <!-- Page Title -->
       <section id="page-title">
-        <div class="container clearfix">
+        <div class="container clearfix" >
           <h1>Review Employee Leaves</h1>
         </div>
       </section>
@@ -54,21 +55,15 @@ pageEncoding="ISO-8859-1" import="java.sql.ResultSet"%>
 
         <% ResultSet rs=(ResultSet)session.getAttribute("ReviewResultSet"); %>
 
-        <div class="container clearfix">
-          <div class="clear"></div>
-          <div class="line"></div>
+        <div class="container clearfix" >
+          
           <div class="col_full center">
             <a href="reviewLeaves.jsp"
-              ><button
-                class="button button-border button-rounded button-fill fill-from-bottom button-black"
-              >
-                <i class="fas fa-user-check"></i
-                ><span> Click to Approve for Another Date</span>
-              </button></a
-            >
+              ><button style="margin-top: 30px" class="button button-border button-rounded button-fill fill-from-bottom button-black">
+                <i class="fas fa-user-check"></i><span> Approve for Another Date</span>
+              </button></a>
             <% if(rs.next()==true){ rs.previous(); %><a href="ApproveAllLeaves"
-              ><button
-                class="button button-border button-rounded button-fill fill-from-bottom button-black"
+              ><button class="button button-border button-rounded button-fill fill-from-bottom button-black"
               >
                 <i class="fas fa-check-circle"></i
                 ><span> Click to Approve All Leaves</span>
@@ -77,7 +72,7 @@ pageEncoding="ISO-8859-1" import="java.sql.ResultSet"%>
           </div>
         </div>
 
-        <div class="container clearfix">
+        <div class="container clearfixn pb-5" style=" margin-bottom: 190px;">
           &nbsp; &nbsp; <% if(rs.next()==true){ rs.previous(); %>
           <table class="table table-bordered table-striped">
             <thead>

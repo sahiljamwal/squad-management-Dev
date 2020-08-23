@@ -23,7 +23,7 @@ pageEncoding="ISO-8859-1" import="java.sql.ResultSet"%>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Document Title -->
-    <title>Review Update Empolyee Records</title>
+    <title>Review Update Employee Records</title>
   </head>
 
   <body class="stretched">
@@ -34,14 +34,14 @@ pageEncoding="ISO-8859-1" import="java.sql.ResultSet"%>
 
       <!-- Page Title -->
       <section id="page-title">
-        <div class="container clearfix">
+        <div class="container clearfix" >
           <h1>Review Updated Employee Leaves</h1>
         </div>
       </section>
       <!-- #page-title end -->
 
       <!-- Content -->
-      <section id="content">
+      <section id="content" style="min-height: 70vh">
         <!-- Check if logged in -->
         <jsp:include page="partials/checkIfLoggedInAdmin.jsp" />
         

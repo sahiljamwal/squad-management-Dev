@@ -42,7 +42,7 @@ pageEncoding="ISO-8859-1"%>
       <!-- #page-title end -->
 
       <!-- Content -->
-      <section id="content">
+      <section id="content" >
         <% HttpSession user=request.getSession(false);
         if(user.getAttribute("teaching")!=null ||
         user.getAttribute("non-teaching")!=null) { } else

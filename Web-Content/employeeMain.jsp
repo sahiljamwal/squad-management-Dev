@@ -27,6 +27,8 @@ p {
 	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
 	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
 	crossorigin="anonymous">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 
 <link rel="stylesheet" href="css/responsive.css" type="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -46,12 +48,9 @@ p {
 
 		<!-- Page Title -->
 		<section id="page-title">
-
 			<div class="container clearfix">
 				<h1>Employee Main</h1>
-
 			</div>
-
 		</section>
 		<!-- #page-title end -->
 
@@ -61,11 +60,8 @@ p {
 			<!-- Check if logged in -->
 			<jsp:include page="partials/checkIfLoggedInUser.jsp" />
 
-			<div class="container clearfix">
-
-				<div>
-
-					<div class="clear"></div>
+			<div class="container clearfix pb-5">
+				<div class="pb-5">
 					<div class="line"></div>
 
 					<%
@@ -100,14 +96,10 @@ p {
 								</tr>
 
 								<tr>
-									<td><code>First Name</code></td>
-									<td><%=session.getAttribute("fname")%></td>
+									<td><code>Name</code></td>
+									<td><%=session.getAttribute("fname") + " " + session.getAttribute("lname")%></td>
 								</tr>
 
-								<tr>
-									<td><code>Last Name</code></td>
-									<td><%=session.getAttribute("lname")%></td>
-								</tr>
 
 								<tr>
 									<td><code>Role</code></td>
@@ -206,7 +198,7 @@ p {
 							</tbody>
 						</table>
 					</center>
-
+					<div class="line"></div>
 				</div>
 			</div>
 		</section>

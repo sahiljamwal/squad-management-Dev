@@ -12,7 +12,7 @@ pageEncoding="ISO-8859-1"%>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="SemiColonWeb" />
 
-    <!-- Stylesheets -->
+    <!-- StyleSheets -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
       rel="stylesheet"
@@ -52,7 +52,7 @@ pageEncoding="ISO-8859-1"%>
         <jsp:include page="partials/checkIfLoggedInAdmin.jsp" />
 
         <div class="content-wrap">
-          <div class="container clearfix">
+          <div class="container clearfix" >
             <div class="line"></div>
             <center>
               <form action="View_User" method="post">
@@ -178,13 +178,13 @@ pageEncoding="ISO-8859-1"%>
                     </td>
                     <td><%=s1.getAttribute("Designation") %></td>
                   </tr>
-
                   <% }%>
                 </tbody>
               </table>
             </center>
           </div>
         </div>
+         <div class="line"></div>
       </section>
       <!-- #content end -->
 

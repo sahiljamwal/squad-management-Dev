@@ -53,7 +53,7 @@ pageEncoding="ISO-8859-1"%>
         <jsp:include page="partials/checkIfLoggedInSuperAdmin.jsp" />
         
         <div class="content-wrap">
-          <div class="container clearfix">
+          <div class="container clearfix" >
             <div class="row">
               <div class="col-sm-12">
                 <div

@@ -30,7 +30,7 @@ pageEncoding="UTF-8"%>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Document Title -->
-    <title>Update Empolyee Record</title>
+    <title>Update Employee Record</title>
   </head>
 
   <body class="stretched">

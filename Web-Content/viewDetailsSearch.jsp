@@ -12,7 +12,7 @@ pageEncoding="UTF-8"%>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="SemiColonWeb" />
 
-    <!-- Stylesheets -->
+    <!-- StyleSheets -->
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
       rel="stylesheet"
@@ -43,7 +43,7 @@ pageEncoding="UTF-8"%>
       <jsp:include page="headerMain.jsp" />
 
       <!-- Page Title -->
-      <section id="page-title">
+      <section id="page-title" >
         <div class="container clearfix">
           <h1>View Your Leave Details here</h1>
         </div>
@@ -51,12 +51,12 @@ pageEncoding="UTF-8"%>
       <!-- #page-title end -->
 
       <!-- Content -->
-      <section>
+      <section style="min-height: 70vh">
         <!-- Check if logged in -->
         <jsp:include page="partials/checkIfLoggedInUser.jsp" />
 
         <div class="content-wrap">
-          <div class="container clearfix">
+          <div class="container clearfix" >
             <div class="clear"></div>
             <div class="line"></div>
 

@@ -47,11 +47,11 @@ pageEncoding="UTF-8" import="java.sql.ResultSet"%>
       <!-- #page-title end -->
 
       <!-- Content -->
-      <section>
+      <section style="min-height: 70vh">
         <!-- Check if logged in -->
         <jsp:include page="partials/checkIfLoggedInUser.jsp" />
 
-        <div class="container clearfix">
+        <div class="container clearfix" >
           <% HttpSession s1=request.getSession(false); ResultSet
           rs=(ResultSet)session.getAttribute("ResultSet"); %> &nbsp; &nbsp; <%
           if(rs.next()==true){ rs.previous(); %>
