@@ -1,0 +1,1 @@
+new TypeIt("#myElement").type("Welcome to SQUAD Management. ").pause(1000).break().type("Your complete solution for Leave Management!").break().type("Let's Begin!").go()
